@@ -15,7 +15,7 @@ The sklearn models used in this project were:
 
 ### Random Oversampling
 
-![Random Oversampling]()
+![Random Oversampling](https://github.com/taherrin92/Credit_Risk_Analysis/blob/main/Resources/Random_oversampling_results.png)
 
  - The overall accuracy score for random oversampling was 64.75%. 
  - The precision on high risk credit was 1%, recall was 62%, and the F1 score was 2%.
@@ -23,7 +23,7 @@ The sklearn models used in this project were:
 
 ### SMOTE Oversampling
 
-![Smote Oversampling]()
+![Smote Oversampling](https://github.com/taherrin92/Credit_Risk_Analysis/blob/main/Resources/SMOTE_oversampling_results.png)
 
  - The overall accuracy score for SMOTE oversampling was 61.70%. 
  - The precision on high risk credit was 1%, recall was 57%, and the F1 score was 2%.
@@ -31,7 +31,7 @@ The sklearn models used in this project were:
 
 ### Cluster Centroids Undersampling
 
-![Cluster Centroids]()
+![Cluster Centroids](https://github.com/taherrin92/Credit_Risk_Analysis/blob/main/Resources/Undersampling_results.png)
 
  - The overall accuracy score for Cluster Centroids undersampling was 51.60%. 
  - The precision on high risk credit was 1%, recall was 60%, and the F1 score was 1%.
@@ -39,7 +39,7 @@ The sklearn models used in this project were:
 
 ### SMOTEENN Combination Sampling
 
-![SMOTEENN Combination Sampling]()
+![SMOTEENN Combination Sampling](https://github.com/taherrin92/Credit_Risk_Analysis/blob/main/Resources/SMOTEENN_combo_results.png)
 
  - The overall accuracy score for SMOTEENN Combination Sampling was 63.47%. 
  - The precision on high risk credit was 1%, recall was 70%, and the F1 score was 2%.
@@ -47,7 +47,7 @@ The sklearn models used in this project were:
 
 ### Balanced Random Forest
 
-![Balanced Random Forest]()
+![Balanced Random Forest](https://github.com/taherrin92/Credit_Risk_Analysis/blob/main/Resources/Random_Forest_results.png)
 
  - The overall accuracy score for Balanced Random Forest was 78.85%. 
  - The precision on high risk credit was 3%, recall was 70%, and the F1 score was 6%.
@@ -55,12 +55,16 @@ The sklearn models used in this project were:
 
 ### Easy Ensemble Adaptive Boost
 
-![Easy Ensemble Adaptive Boost]()
+![Easy Ensemble Adaptive Boost](https://github.com/taherrin92/Credit_Risk_Analysis/blob/main/Resources/EasyEnsemble_results.png)
 
  - The overall accuracy score for Easy Ensemble Adaptive Boost was 93.17%. 
  - The precision on high risk credit was 9%, recall was 92%, and the F1 score was 6%.
  - The recall on low risk credit was 87% and the F1 score was 93%.
 
+## Summary
+
+The Easy Ensemble Adaptive Boost model had the highest accuracy, precision, and F1 score of the six models.
+Out of the random sampling models, the random oversampling model had the highest accuracy, precision, and F1 score.
 
 
 
